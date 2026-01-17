@@ -1,0 +1,44 @@
+/* 
+Types of selector
+1. Tag Selector
+2. id selector
+3. Class Selector 
+4. Universal Selector
+5. Grouping Selector
+
+htmlcolorcodes.com
+hexadecimal
+rgb
+*/
+
+h2 {
+    color: chocolate;
+}
+
+#hitext {
+    color: blueviolet;
+}
+
+.quotes {
+    color: darkgreen;
+    font-family: monospace;
+    font-size: larger;
+}
+
+a.quotes {
+    color: blueviolet;
+    font-size: larger;
+}
+
+* {
+    font-family: cursive;
+}
+
+h2, #hitext {
+    font-style: normal;
+}
+
+#opacity {
+    color: #C45E0C;
+    opacity: 50%;
+}
