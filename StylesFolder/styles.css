@@ -16,8 +16,21 @@ h2 {
 }
 
 #hitext {
-    color: blueviolet;
+    /* color: blueviolet; */
+    /* background-color: antiquewhite; */
+    /* background-image: url(image.png); */
+    border-style: dotted;
 }
+
+body {
+    background-image: url(image.png);
+    background-repeat: no-repeat; /*other options: repeat-x, repeat-y*/
+    background-position: top left ; /*other options: top left, top right, bottom left, bottom right, center, top, bottom,..*/
+    background-attachment: fixed;
+    /* Short hand syntax  */
+    /* background: url(image.png) no-repeat top left fixed; */
+}
+
 
 .quotes {
     color: darkgreen;
