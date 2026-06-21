@@ -1,0 +1,61 @@
+a {
+    text-decoration: none;
+}
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: cyan;
+}
+
+a:focus {
+    color: green;
+    outline: 3px green solid;
+}
+
+a:active {
+    color: red;
+}
+
+.sub-item {
+    list-style-type: square;
+}
+
+.my-to-do-list {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 350px;
+    background-color: whitesmoke;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 20px;
+    border-width: 1px;
+    border-color: whitesmoke;
+    border-style: solid;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.todo-list {
+    list-style-type: none;
+}
+
+.list-of-items {
+    text-align: left;
+}
+
+body {
+    background-color: lavender
+}
+
+.item {
+    padding: 10px;
+    margin: 10px;
+    background-color: lavender;
+    border-radius: 15px;
+}
